@@ -34,7 +34,7 @@ nav {
     margin: right;
 }
 nav ul li a {
-    background: #03008F;
+    background: #09649c;
     padding: 2px 10px;
     font-size: 20px;
     text-decoration: none;
@@ -47,9 +47,9 @@ nav ul li a {
 
 nav ul li a:hover {
     background: #FFFFFF;
-    color: #03008F;
+    color: #09649c;
     border-style: solid;
-    border-color: #03008F;
+    border-color: #09649c;
 }
 nav ul li {
     display: inline-block;
@@ -93,15 +93,15 @@ article p {
 
 article p a:link {
      text-decoration: none;
-    color: #03008F;
+    color: #09649c;
 }
 
 article p a:visited {
      text-decoration: none;
-    color: #03008F;
+    color: #09649c;
 }
 
-article p ul {
+Article p ul {
      display: inline-block;
 }
 
@@ -126,12 +126,12 @@ address {
 
 address a:link {
     text-decoration: none;
-    color: #03008F;
+    color: #09649c;
 }
 
 strong a:link {
     text-decoration: none;
-    color: #03008F;
+    color: #09649c;
 }
 
 aside > div {

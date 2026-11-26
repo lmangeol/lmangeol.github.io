@@ -163,6 +163,15 @@ body > section {
     color: #333;
 }
 
+article h3 {
+    float: none;
+    clear: both;
+    width: auto;
+    position: static;
+}
+
+
+
 @media screen and (max-width: 1000px) {
 	body > section {
 		padding: 30px 20px;

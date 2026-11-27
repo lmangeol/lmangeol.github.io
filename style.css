@@ -88,7 +88,7 @@ article h2 {
 }
 article p {
     float: left;
-    width: 60%;
+    width: 90%;
 }
 
 article p a:link {
@@ -188,3 +188,33 @@ article h3 {
 	}
 
 }
+
+
+.with-aside {
+  display: flex;
+  gap: 2em;
+  align-items: flex-start;   /* the aside doesn't stretch to the article's height */
+}
+.with-aside .main  { flex: 1; }
+
+.with-aside aside {
+  flex: 0 0 30%;
+  align-self: center;
+  display: flex;
+  flex-direction: column;   /* children stack vertically */
+  align-items: center;      /* horizontal centering now uses align-items */
+  text-align: center;       /* centers the lines of text themselves */
+}
+
+.with-aside aside img {
+  max-width: 100%;             /* instead of width: 100%, so it can be narrower than the column */
+  border: 1px solid;
+}
+
+
+/* stack the two on narrow screens */
+@media (max-width: 700px) {
+  .with-aside { flex-direction: column; }
+  .with-aside aside { flex-basis: auto; }
+}
+
